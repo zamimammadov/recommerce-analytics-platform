@@ -1,8 +1,9 @@
 # Verification record
 
-Verified on **16 November 2026** in the development workspace. Results below
-describe the commands actually executed, and distinguish those results from
-configuration that has only been checked statically.
+Local checks were verified on **16 November 2026** in the development workspace.
+GitHub Actions also passed on **17 November 2026** after publication. Results
+below describe the commands actually executed, and distinguish those results
+from configuration that has only been checked statically.
 
 ## What was tested
 
@@ -22,6 +23,7 @@ configuration that has only been checked statically.
 | Airflow configuration | DAG compilation and static configuration checks completed. |
 | Dashboard | Streamlit AppTest rendered four KPI cards from the live marts with no application errors. |
 | Package | Built and installed the wheel into an isolated temporary directory; verified that its packaged bootstrap SQL includes the latest migrations. |
+| GitHub Actions | Both `code-quality` and `pipeline-integration` passed on source commit `5da3a4337de112936fd6e1d4c7fa1feecbcb9621`. The integration job exercised daily ingestion, live database invariants, two dbt builds, SCD2 history, quality checks, replay and metric export. See the [successful run](https://github.com/zamimammadov/recommerce-analytics-platform/actions/runs/43968369710). |
 
 Generated `data/processed/demo_validation.json` records the latest demo's
 history, quarantine, replay and timing results. Generated files remain outside
@@ -34,7 +36,6 @@ source control; rerunning the demo produces fresh evidence.
 | Full `make demo` container run | The host uses Docker VFS storage and has a 7.9 GB filesystem limit. Application-container creation exhausted host space, so the complete Compose app/dbt execution path was not demonstrated here. The same Python pipeline and dbt commands passed using the local fallback below. |
 | Airflow runtime | The full Airflow scheduler/webserver stack and a live DAG run were not exercised. Do not present static checks as an operational Airflow deployment. |
 | Cloud deployment | No cloud environment was deployed; there is no claim of cloud CI/CD, HA, production traffic, or operational ownership. |
-| GitHub Actions | Workflow configuration is supplied. A successful run on the user's published GitHub repository must be checked after publication. |
 
 ## Reproduce the verified local fallback
 
