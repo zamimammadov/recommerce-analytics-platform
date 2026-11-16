@@ -1,0 +1,386 @@
+listing_id,seller_id,seller_country_code,category,brand_tier,item_condition,current_price_eur,current_status,created_at,view_count,unique_viewer_count,favorite_count,message_count,order_count,completed_order_count,first_view_at,first_sale_at,hours_to_sale,item_gmv_eur,reached_view_stage,reached_favorite_stage,reached_message_stage,reached_order_stage,reached_completed_stage
+lst_20260930_0000000,usr_20260930_000000,PL,electronics,value,very_good,314.19,active,2026-09-26 09:14:41+00:00,4,4,1,0,0,0,2026-10-01 00:22:27+00:00,,,0.0,True,True,False,False,False
+lst_20260930_0000001,usr_20260930_000001,PL,shoes,value,good,331.68,active,2026-09-15 07:01:58+00:00,8,8,1,0,0,0,2026-10-01 01:18:54+00:00,,,0.0,True,True,False,False,False
+lst_20260930_0000002,usr_20260930_000002,BE,children,value,satisfactory,349.16,active,2026-09-14 13:06:05+00:00,2,2,0,0,0,0,2026-10-01 03:55:27+00:00,,,0.0,True,False,False,False,False
+lst_20260930_0000003,usr_20260930_000003,IT,children,value,very_good,366.65,active,2026-09-30 04:06:17+00:00,4,4,0,0,0,0,2026-10-01 06:17:49+00:00,,,0.0,True,False,False,False,False
+lst_20260930_0000004,usr_20260930_000004,NL,men_clothing,mid_market,good,384.14,active,2026-09-12 15:50:58+00:00,5,5,0,0,0,0,2026-09-27 12:16:17+00:00,,,0.0,True,False,False,False,False
+lst_20260930_0000005,usr_20260930_000005,ES,women_clothing,mid_market,new_with_tags,401.62,active,2026-09-07 14:37:40+00:00,4,4,2,1,0,0,2026-10-01 05:55:38+00:00,,,0.0,True,True,True,False,False
+lst_20260930_0000006,usr_20260930_000006,BE,women_clothing,mid_market,very_good,419.11,active,2026-09-04 11:32:01+00:00,2,2,3,1,0,0,2026-10-01 08:37:24+00:00,,,0.0,True,True,True,False,False
+lst_20260930_0000007,usr_20260930_000007,BE,children,premium,very_good,436.6,active,2026-09-05 03:36:23+00:00,7,7,0,0,0,0,2026-10-01 01:21:39+00:00,,,0.0,True,False,False,False,False
+lst_20260930_0000008,usr_20260930_000008,FR,men_clothing,value,very_good,8.59,active,2026-09-13 16:01:41+00:00,10,9,0,0,0,0,2026-10-01 00:10:34+00:00,,,0.0,True,False,False,False,False
+lst_20260930_0000009,usr_20260930_000009,IT,children,value,good,26.07,active,2026-09-02 13:20:56+00:00,6,6,2,0,0,0,2026-09-28 10:14:46+00:00,,,0.0,True,True,False,False,False
+lst_20260930_0000010,usr_20260930_000010,IT,men_clothing,value,very_good,43.56,active,2026-09-25 15:26:52+00:00,4,4,0,0,0,0,2026-10-01 15:21:48+00:00,,,0.0,True,False,False,False,False
+lst_20260930_0000011,usr_20260930_000011,DE,accessories,mid_market,very_good,61.05,active,2026-08-31 06:58:54+00:00,1,1,0,1,0,0,2026-10-01 02:23:46+00:00,,,0.0,True,False,True,False,False
+lst_20260930_0000012,usr_20260930_000012,ES,shoes,mid_market,very_good,78.53,active,2026-09-02 13:48:50+00:00,7,7,0,1,0,0,2026-10-01 00:18:05+00:00,,,0.0,True,False,True,False,False
+lst_20260930_0000013,usr_20260930_000013,IT,accessories,value,satisfactory,96.02,active,2026-09-01 03:42:36+00:00,5,5,1,0,0,0,2026-10-01 00:26:04+00:00,,,0.0,True,True,False,False,False
+lst_20260930_0000014,usr_20260930_000014,ES,children,premium,very_good,113.51,active,2026-09-12 06:18:14+00:00,4,4,1,0,0,0,2026-10-01 02:10:45+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000000,usr_20261001_000000,FR,children,premium,very_good,337.83,active,2026-09-09 03:46:21+00:00,14,14,3,1,0,0,2026-10-01 08:50:49+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000001,usr_20261001_000001,IT,children,mid_market,good,355.32,active,2026-09-25 23:42:32+00:00,5,5,1,1,0,0,2026-09-29 02:34:59+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000002,usr_20261001_000002,NL,shoes,mid_market,very_good,372.81,active,2026-09-06 21:14:48+00:00,22,21,2,1,0,0,2026-10-01 00:05:38+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000003,usr_20261001_000003,DE,women_clothing,value,good,390.29,active,2026-09-27 08:33:51+00:00,7,7,3,0,0,0,2026-10-01 03:39:00+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000004,usr_20261001_000004,FR,women_clothing,value,good,407.78,active,2026-09-07 09:52:53+00:00,8,8,2,3,0,0,2026-10-01 02:44:07+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000005,usr_20261001_000005,BE,women_clothing,mid_market,very_good,425.27,removed,2026-09-22 12:36:29+00:00,7,7,0,0,0,0,2026-10-01 02:58:03+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000006,usr_20261001_000006,BE,women_clothing,value,very_good,442.76,active,2026-09-04 18:25:14+00:00,12,12,1,1,0,0,2026-10-01 03:46:11+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000007,usr_20261001_000007,LT,children,mid_market,new_with_tags,14.74,active,2026-09-14 21:18:12+00:00,7,7,1,0,0,0,2026-10-01 10:31:35+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000008,usr_20261001_000008,NL,children,value,very_good,32.23,active,2026-09-16 23:45:17+00:00,6,6,1,0,0,0,2026-10-01 15:21:30+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000009,usr_20261001_000009,PL,electronics,value,very_good,49.72,active,2026-09-06 08:56:10+00:00,6,6,1,1,0,0,2026-10-01 02:35:05+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000010,usr_20261001_000010,NL,women_clothing,premium,new_with_tags,67.2,active,2026-09-13 20:44:01+00:00,13,13,0,0,0,0,2026-09-26 17:56:55+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000011,usr_20261001_000011,NL,women_clothing,value,new_with_tags,84.69,active,2026-09-20 12:47:17+00:00,8,8,3,1,0,0,2026-10-01 00:47:06+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000012,usr_20261001_000012,IT,women_clothing,mid_market,satisfactory,102.18,active,2026-09-09 21:07:15+00:00,14,14,3,2,0,0,2026-10-01 07:18:11+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000013,usr_20261001_000013,BE,shoes,value,good,119.66,active,2026-09-02 12:36:43+00:00,6,6,2,0,0,0,2026-10-01 21:03:04+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000014,usr_20261001_000014,BE,home,mid_market,good,137.15,active,2026-09-10 15:02:38+00:00,8,7,1,0,0,0,2026-10-01 02:20:20+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000015,usr_20261001_000015,FR,electronics,value,good,171.82,active,2026-09-24 00:09:44+00:00,4,4,2,1,0,0,2026-10-01 10:51:31+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000016,usr_20261001_000016,ES,home,premium,good,191.25,active,2026-09-02 17:03:26+00:00,4,4,0,2,0,0,2026-10-01 03:58:14+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000017,usr_20261001_000017,PL,children,mid_market,good,210.68,sold,2026-09-15 18:32:23+00:00,1,1,1,0,1,1,2026-10-01 07:27:18+00:00,2026-10-01 00:48:04+00:00,366.2613888888889,210.68,True,True,False,True,True
+lst_20261001_0000018,usr_20261001_000018,LT,women_clothing,mid_market,very_good,230.11,active,2026-09-17 11:55:31+00:00,7,7,0,1,0,0,2026-10-01 03:41:16+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000019,usr_20261001_000019,LT,children,value,new_with_tags,249.54,active,2026-09-22 01:04:25+00:00,2,2,1,0,0,0,2026-10-01 10:36:49+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000020,usr_20261001_000020,NL,accessories,value,good,268.97,active,2026-09-16 05:37:35+00:00,0,0,0,0,0,0,,,,0.0,False,False,False,False,False
+lst_20261001_0000021,usr_20261001_000021,NL,accessories,mid_market,very_good,288.4,active,2026-09-01 02:23:05+00:00,9,9,1,0,0,0,2026-10-01 04:07:44+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000022,usr_20261001_000022,NL,men_clothing,value,very_good,307.83,active,2026-09-24 03:28:45+00:00,8,8,0,1,0,0,2026-10-01 00:57:58+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000023,usr_20261001_000023,DE,shoes,value,very_good,327.26,active,2026-09-08 17:29:46+00:00,7,7,1,0,0,0,2026-10-01 07:43:59+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000024,usr_20261001_000024,BE,men_clothing,mid_market,good,346.69,active,2026-09-09 17:45:31+00:00,8,8,0,0,0,0,2026-10-01 00:11:40+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000025,usr_20261001_000025,ES,women_clothing,value,very_good,366.12,active,2026-10-01 20:33:20+00:00,3,3,0,0,1,0,2026-10-01 21:10:46+00:00,,,0.0,True,False,False,True,False
+lst_20261001_0000026,usr_20261001_000026,DE,electronics,mid_market,very_good,385.55,active,2026-09-26 17:50:44+00:00,6,6,0,0,0,0,2026-10-01 00:41:11+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000027,usr_20261001_000027,FR,accessories,mid_market,satisfactory,404.98,sold,2026-09-28 11:10:30+00:00,8,8,0,1,1,1,2026-10-01 05:23:52+00:00,2026-10-01 04:23:28+00:00,65.2161111111111,404.98,True,False,True,True,True
+lst_20261001_0000028,usr_20261001_000028,PL,children,mid_market,very_good,424.41,active,2026-09-21 14:45:23+00:00,4,4,1,3,0,0,2026-10-01 02:01:12+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000029,usr_20261001_000029,NL,men_clothing,premium,very_good,443.84,active,2026-09-01 18:32:05+00:00,3,3,0,1,0,0,2026-10-01 02:16:00+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000030,usr_20261001_000030,PL,children,value,very_good,463.27,active,2026-09-16 20:54:32+00:00,6,6,0,1,0,0,2026-10-01 00:28:28+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000031,usr_20261001_000031,LT,men_clothing,value,satisfactory,482.7,sold,2026-09-19 05:41:26+00:00,5,5,1,0,1,1,2026-10-01 02:18:11+00:00,2026-10-01 00:02:07+00:00,282.34472222222223,482.7,True,True,False,True,True
+lst_20261001_0000032,usr_20261001_000032,PL,women_clothing,mid_market,good,7.13,active,2026-09-15 23:30:00+00:00,3,3,4,0,0,0,2026-10-01 01:21:59+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000033,usr_20261001_000033,ES,women_clothing,value,very_good,26.56,active,2026-09-09 21:01:40+00:00,2,2,0,2,0,0,2026-10-01 10:22:34+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000034,usr_20261001_000034,LT,women_clothing,value,very_good,45.99,reserved,2026-09-23 23:50:37+00:00,3,3,1,0,1,0,2026-10-01 10:15:47+00:00,2026-10-01 05:11:57+00:00,173.35555555555555,45.99,True,True,False,True,False
+lst_20261001_0000035,usr_20261001_000035,IT,shoes,mid_market,very_good,65.42,active,2026-09-22 13:29:37+00:00,7,7,1,0,0,0,2026-10-01 05:33:33+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000036,usr_20261001_000036,DE,children,value,very_good,84.85,active,2026-09-05 04:35:15+00:00,5,5,0,0,0,0,2026-10-01 02:25:49+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000037,usr_20261001_000037,IT,men_clothing,mid_market,very_good,104.28,active,2026-09-25 02:58:50+00:00,4,4,0,0,0,0,2026-10-01 01:28:30+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000038,usr_20261001_000038,DE,home,mid_market,very_good,123.71,active,2026-09-15 02:53:08+00:00,9,9,0,1,0,0,2026-10-01 03:11:50+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000039,usr_20261001_000039,DE,electronics,mid_market,good,143.14,active,2026-09-17 15:17:49+00:00,3,3,0,1,0,0,2026-10-01 08:49:35+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000040,usr_20261001_000040,PL,accessories,mid_market,very_good,162.57,reserved,2026-09-29 08:12:02+00:00,5,5,2,2,1,0,2026-09-29 09:14:45+00:00,2026-10-01 15:42:27+00:00,55.50694444444444,162.57,True,True,True,True,False
+lst_20261001_0000041,usr_20261001_000041,BE,accessories,mid_market,good,182.0,active,2026-09-25 19:17:00+00:00,4,4,1,0,0,0,2026-10-01 01:54:33+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000042,usr_20261001_000042,PL,women_clothing,value,very_good,201.43,active,2026-09-22 07:02:28+00:00,3,3,2,1,0,0,2026-10-01 02:34:04+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000043,usr_20261001_000043,NL,accessories,premium,good,220.86,active,2026-09-23 11:28:11+00:00,4,4,1,0,0,0,2026-10-01 07:12:26+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000044,usr_20261001_000044,IT,men_clothing,mid_market,very_good,240.29,active,2026-09-02 13:46:28+00:00,1,1,0,0,0,0,2026-10-01 23:40:23+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000045,usr_20261001_000045,NL,children,value,very_good,259.72,sold,2026-09-30 03:52:27+00:00,5,5,1,0,1,1,2026-10-01 07:40:42+00:00,2026-10-01 06:10:28+00:00,26.30027777777778,259.72,True,True,False,True,True
+lst_20261001_0000046,usr_20261001_000046,DE,men_clothing,luxury,good,279.15,active,2026-09-08 05:37:36+00:00,7,7,2,0,0,0,2026-10-01 01:00:44+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000047,usr_20261001_000047,NL,women_clothing,value,good,298.58,active,2026-09-04 11:44:57+00:00,5,4,0,1,0,0,2026-10-01 02:27:59+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000048,usr_20261001_000048,DE,children,mid_market,very_good,318.01,active,2026-09-08 11:42:58+00:00,2,2,2,0,0,0,2026-10-01 05:35:20+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000049,usr_20261001_000049,FR,home,value,satisfactory,337.44,active,2026-09-11 17:41:58+00:00,4,4,0,0,0,0,2026-10-01 02:51:05+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000050,usr_20261001_000050,NL,accessories,value,satisfactory,356.87,sold,2026-09-14 13:08:28+00:00,4,4,1,0,1,1,2026-10-01 05:49:11+00:00,2026-10-01 16:24:36+00:00,411.2688888888889,356.87,True,True,False,True,True
+lst_20261001_0000051,usr_20261001_000051,BE,men_clothing,mid_market,very_good,376.3,active,2026-09-10 17:22:41+00:00,3,3,0,0,0,0,2026-10-01 00:06:25+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000052,usr_20261001_000052,BE,electronics,luxury,good,395.73,active,2026-10-01 15:10:19+00:00,5,5,0,1,1,0,2026-10-01 16:52:11+00:00,,,0.0,True,False,True,True,False
+lst_20261001_0000053,usr_20261001_000053,FR,accessories,mid_market,very_good,415.16,active,2026-09-26 17:37:27+00:00,7,7,1,1,0,0,2026-10-01 04:20:22+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000054,usr_20261001_000054,LT,children,mid_market,good,434.59,active,2026-09-23 20:28:49+00:00,5,5,1,0,0,0,2026-09-29 01:16:05+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000055,usr_20261001_000055,PL,children,mid_market,new_with_tags,454.02,sold,2026-09-10 02:38:45+00:00,6,6,0,0,1,0,2026-10-01 03:11:08+00:00,2026-10-01 02:56:31+00:00,504.2961111111111,454.02,True,False,False,True,False
+lst_20261001_0000056,usr_20261001_000056,NL,women_clothing,mid_market,new_with_tags,473.45,reserved,2026-09-10 22:34:56+00:00,5,4,0,0,1,0,2026-10-01 02:04:28+00:00,,,0.0,True,False,False,True,False
+lst_20261001_0000057,usr_20261001_000057,FR,electronics,value,good,492.88,active,2026-09-05 13:55:24+00:00,4,4,0,0,0,0,2026-09-27 05:35:45+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000058,usr_20261001_000058,PL,women_clothing,mid_market,new_with_tags,17.31,active,2026-09-08 23:08:28+00:00,4,4,0,0,0,0,2026-10-01 00:09:41+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000059,usr_20261001_000059,NL,women_clothing,premium,good,36.74,active,2026-09-09 15:41:17+00:00,2,2,1,1,0,0,2026-10-01 08:06:56+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000060,usr_20261001_000060,IT,shoes,mid_market,good,56.17,active,2026-09-18 09:18:37+00:00,7,7,0,0,0,0,2026-10-01 00:10:10+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000061,usr_20261001_000061,DE,children,mid_market,very_good,75.6,active,2026-09-01 01:18:54+00:00,2,2,2,0,0,0,2026-10-01 05:02:46+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000062,usr_20261001_000062,NL,women_clothing,mid_market,good,95.03,active,2026-09-10 01:05:06+00:00,6,6,1,1,0,0,2026-10-01 01:56:49+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000063,usr_20261001_000063,IT,children,premium,very_good,114.46,active,2026-09-06 07:50:58+00:00,6,5,2,1,0,0,2026-09-26 03:08:08+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000064,usr_20261001_000064,DE,electronics,value,satisfactory,133.89,active,2026-09-19 19:12:26+00:00,5,5,0,0,0,0,2026-10-01 04:16:02+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000065,usr_20261001_000065,BE,women_clothing,value,satisfactory,153.32,active,2026-09-01 23:15:49+00:00,3,3,3,0,0,0,2026-10-01 01:43:04+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000066,usr_20261001_000066,ES,accessories,mid_market,very_good,172.75,active,2026-09-14 02:25:03+00:00,6,6,1,0,0,0,2026-10-01 03:46:39+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000067,usr_20261001_000067,DE,shoes,mid_market,good,192.18,active,2026-09-03 15:43:00+00:00,4,4,1,0,0,0,2026-09-30 02:13:29+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000068,usr_20261001_000068,BE,accessories,mid_market,good,211.61,active,2026-09-24 20:24:44+00:00,7,7,0,0,0,0,2026-10-01 04:02:01+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000069,usr_20261001_000069,IT,accessories,value,very_good,231.04,active,2026-09-21 11:04:45+00:00,0,0,0,1,0,0,,,,0.0,False,False,True,False,False
+lst_20261001_0000070,usr_20261001_000070,LT,children,mid_market,very_good,250.47,active,2026-10-01 08:51:19+00:00,7,7,0,0,0,0,2026-10-01 08:53:49+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000071,usr_20261001_000071,IT,women_clothing,mid_market,very_good,269.9,active,2026-09-09 20:06:45+00:00,3,3,0,0,0,0,2026-10-01 00:52:31+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000072,usr_20261001_000072,FR,women_clothing,mid_market,very_good,289.33,sold,2026-09-10 18:13:01+00:00,6,6,0,0,1,1,2026-10-01 00:58:47+00:00,2026-10-01 08:54:00+00:00,494.68305555555554,289.33,True,False,False,True,True
+lst_20261001_0000073,usr_20261001_000073,ES,children,value,very_good,308.76,active,2026-09-23 20:21:34+00:00,7,7,2,0,0,0,2026-10-01 01:37:48+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000074,usr_20261001_000074,LT,shoes,value,good,328.19,active,2026-09-21 09:55:58+00:00,4,4,0,0,0,0,2026-10-01 05:06:26+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000075,usr_20261001_000075,PL,children,value,very_good,347.62,active,2026-09-23 10:35:33+00:00,5,5,0,0,0,0,2026-10-01 04:11:05+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000076,usr_20261001_000076,BE,children,mid_market,good,367.05,active,2026-09-17 19:49:55+00:00,5,5,0,0,0,0,2026-09-26 10:28:02+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000077,usr_20261001_000077,IT,accessories,mid_market,good,386.48,active,2026-09-21 00:28:54+00:00,6,6,2,0,0,0,2026-10-01 08:44:29+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000078,usr_20261001_000078,DE,shoes,premium,very_good,405.91,active,2026-09-28 04:29:51+00:00,5,5,0,0,0,0,2026-10-01 10:32:04+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000079,usr_20261001_000079,IT,women_clothing,premium,very_good,425.34,active,2026-09-27 23:42:56+00:00,7,7,0,0,0,0,2026-10-01 01:53:53+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000080,usr_20261001_000080,BE,children,premium,very_good,444.77,active,2026-09-12 05:09:59+00:00,9,9,0,0,0,0,2026-09-29 14:00:02+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000081,usr_20261001_000081,LT,children,premium,very_good,464.2,active,2026-09-20 04:40:03+00:00,0,0,2,0,0,0,,,,0.0,False,True,False,False,False
+lst_20261001_0000082,usr_20261001_000082,IT,shoes,premium,very_good,483.63,active,2026-09-27 05:43:26+00:00,4,4,2,1,0,0,2026-10-01 12:51:07+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000083,usr_20261001_000083,DE,home,value,very_good,8.06,active,2026-09-30 18:09:14+00:00,6,6,1,1,0,0,2026-10-01 04:07:54+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000084,usr_20261001_000084,IT,electronics,premium,very_good,27.49,active,2026-09-05 01:12:10+00:00,4,4,1,0,0,0,2026-10-01 03:24:11+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000085,usr_20261001_000000,FR,children,premium,good,46.92,sold,2026-09-27 05:53:38+00:00,5,5,1,0,1,1,2026-10-01 05:12:28+00:00,2026-10-01 13:31:06+00:00,103.62444444444445,46.92,True,True,False,True,True
+lst_20261001_0000086,usr_20261001_000001,IT,children,mid_market,new_with_tags,66.35,sold,2026-09-14 06:40:44+00:00,8,8,1,0,1,1,2026-10-01 02:21:38+00:00,2026-10-01 19:24:07+00:00,420.72305555555556,66.35,True,True,False,True,True
+lst_20261001_0000087,usr_20261001_000002,NL,shoes,mid_market,very_good,85.78,active,2026-09-04 10:10:32+00:00,1,1,2,0,0,0,2026-10-01 20:21:00+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000088,usr_20261001_000003,DE,men_clothing,value,very_good,105.21,active,2026-09-16 02:29:20+00:00,3,3,1,1,0,0,2026-10-01 06:53:42+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000089,usr_20261001_000004,FR,home,value,good,124.64,reserved,2026-09-27 22:24:37+00:00,5,5,0,1,1,0,2026-09-30 22:47:09+00:00,,,0.0,True,False,True,True,False
+lst_20261001_0000090,usr_20261001_000005,BE,children,value,very_good,144.07,active,2026-09-21 00:45:35+00:00,5,5,2,0,0,0,2026-10-01 01:37:39+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000091,usr_20261001_000006,BE,women_clothing,mid_market,good,163.5,active,2026-09-29 20:27:34+00:00,9,9,0,0,0,0,2026-10-01 00:49:48+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000092,usr_20261001_000007,LT,men_clothing,mid_market,very_good,182.93,active,2026-09-13 12:02:45+00:00,3,3,0,0,0,0,2026-10-01 03:07:46+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000093,usr_20261001_000008,NL,men_clothing,value,good,202.36,sold,2026-09-30 01:19:34+00:00,6,6,1,2,1,1,2026-10-01 02:14:57+00:00,2026-10-01 12:08:54+00:00,34.82222222222222,202.36,True,True,True,True,True
+lst_20261001_0000094,usr_20261001_000009,PL,men_clothing,value,very_good,221.79,active,2026-09-09 14:56:11+00:00,7,7,1,0,0,0,2026-09-26 11:36:25+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000095,usr_20261001_000010,NL,children,value,satisfactory,241.22,active,2026-09-12 00:48:06+00:00,3,3,2,1,0,0,2026-10-01 03:05:29+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000096,usr_20261001_000011,NL,women_clothing,value,good,260.65,active,2026-09-14 21:00:34+00:00,2,2,4,0,0,0,2026-10-01 17:59:40+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000097,usr_20261001_000012,IT,men_clothing,value,satisfactory,280.08,active,2026-09-11 10:31:28+00:00,3,3,1,0,0,0,2026-10-01 14:07:33+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000098,usr_20261001_000013,BE,shoes,value,good,299.51,active,2026-09-07 08:13:35+00:00,5,5,2,0,0,0,2026-09-27 11:47:18+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000099,usr_20261001_000014,BE,shoes,mid_market,very_good,318.94,active,2026-09-26 17:14:31+00:00,6,5,0,0,0,0,2026-09-26 18:00:23+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000100,usr_20261001_000015,FR,women_clothing,premium,very_good,338.37,active,2026-09-18 17:04:50+00:00,3,3,0,0,0,0,2026-10-01 06:19:10+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000101,usr_20261001_000016,ES,women_clothing,premium,very_good,357.8,active,2026-09-04 16:04:13+00:00,1,1,1,0,0,0,2026-10-01 02:58:38+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000102,usr_20261001_000017,PL,accessories,mid_market,good,377.23,active,2026-09-15 18:55:39+00:00,5,5,0,1,0,0,2026-10-01 06:08:12+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000103,usr_20261001_000018,LT,children,mid_market,good,396.66,active,2026-09-21 23:12:38+00:00,1,1,1,0,0,0,2026-10-01 03:49:13+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000104,usr_20261001_000019,LT,children,mid_market,good,416.09,active,2026-09-06 14:46:51+00:00,6,6,0,0,0,0,2026-10-01 02:03:07+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000105,usr_20261001_000020,NL,men_clothing,mid_market,very_good,435.52,active,2026-09-20 19:19:37+00:00,7,6,2,0,0,0,2026-10-01 08:40:59+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000106,usr_20261001_000021,NL,women_clothing,mid_market,very_good,454.95,active,2026-09-24 05:29:59+00:00,4,3,0,0,0,0,2026-10-01 07:04:30+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000107,usr_20261001_000022,NL,men_clothing,value,very_good,474.38,active,2026-09-21 19:58:11+00:00,8,8,0,0,0,0,2026-10-01 01:08:27+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000108,usr_20261001_000023,DE,children,value,very_good,493.81,active,2026-09-09 18:42:49+00:00,3,3,2,1,0,0,2026-09-27 20:08:38+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000109,usr_20261001_000024,BE,shoes,mid_market,new_with_tags,18.24,active,2026-09-17 01:33:29+00:00,6,5,0,1,0,0,2026-10-01 06:24:44+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000110,usr_20261001_000025,ES,electronics,mid_market,very_good,37.67,sold,2026-09-13 11:08:16+00:00,7,6,0,0,1,1,2026-10-01 03:01:14+00:00,2026-10-01 19:00:15+00:00,439.8663888888889,37.67,True,False,False,True,True
+lst_20261001_0000111,usr_20261001_000026,DE,accessories,premium,new_with_tags,57.1,active,2026-09-08 02:04:06+00:00,5,5,0,0,0,0,2026-10-01 01:48:23+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000112,usr_20261001_000027,FR,electronics,mid_market,very_good,76.53,sold,2026-09-01 23:16:02+00:00,4,4,1,0,1,1,2026-10-01 04:14:50+00:00,2026-10-01 07:09:09+00:00,703.8852777777778,76.53,True,True,False,True,True
+lst_20261001_0000113,usr_20261001_000028,PL,women_clothing,premium,very_good,95.96,active,2026-09-26 11:38:32+00:00,9,9,0,1,0,0,2026-10-01 06:25:57+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000114,usr_20261001_000029,NL,shoes,premium,good,115.39,active,2026-09-23 08:16:15+00:00,9,8,0,0,0,0,2026-10-01 01:49:16+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000115,usr_20261001_000030,PL,men_clothing,premium,very_good,134.82,active,2026-09-08 08:13:36+00:00,7,7,0,0,0,0,2026-10-01 01:45:27+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000116,usr_20261001_000031,LT,women_clothing,mid_market,good,154.25,active,2026-09-13 13:46:49+00:00,4,3,2,0,0,0,2026-10-01 03:24:32+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000117,usr_20261001_000032,PL,electronics,mid_market,satisfactory,173.68,active,2026-09-08 13:50:18+00:00,3,3,0,0,0,0,2026-10-01 00:24:42+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000118,usr_20261001_000033,ES,women_clothing,value,new_with_tags,193.11,active,2026-09-02 11:35:21+00:00,4,4,0,0,0,0,2026-10-01 00:16:20+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000119,usr_20261001_000034,LT,children,value,new_with_tags,212.54,active,2026-09-21 19:22:50+00:00,8,8,1,0,0,0,2026-10-01 01:53:44+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000120,usr_20261001_000035,IT,women_clothing,premium,very_good,231.97,reserved,2026-09-13 03:22:08+00:00,7,7,1,1,1,0,2026-10-01 03:43:09+00:00,2026-10-01 23:07:14+00:00,451.75166666666667,231.97,True,True,True,True,False
+lst_20261001_0000121,usr_20261001_000036,DE,children,mid_market,satisfactory,251.4,sold,2026-09-05 01:39:35+00:00,4,4,2,1,1,1,2026-10-01 10:36:01+00:00,2026-10-01 16:13:42+00:00,638.5686111111111,251.4,True,True,True,True,True
+lst_20261001_0000122,usr_20261001_000037,IT,women_clothing,value,new_with_tags,270.83,active,2026-09-14 18:16:25+00:00,2,2,0,1,0,0,2026-10-01 17:48:09+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000123,usr_20261001_000038,DE,shoes,mid_market,good,290.26,active,2026-09-14 05:56:58+00:00,5,5,2,0,0,0,2026-09-24 16:56:18+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000124,usr_20261001_000039,DE,women_clothing,premium,very_good,309.69,active,2026-09-18 21:00:18+00:00,4,4,0,1,0,0,2026-10-01 01:29:59+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000125,usr_20261001_000040,PL,accessories,premium,very_good,329.12,active,2026-09-22 10:45:45+00:00,3,3,1,1,0,0,2026-10-01 13:15:37+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000126,usr_20261001_000041,BE,electronics,mid_market,very_good,348.55,active,2026-09-29 13:07:56+00:00,9,9,2,0,0,0,2026-10-01 00:04:21+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000127,usr_20261001_000042,PL,home,mid_market,very_good,367.98,active,2026-09-21 15:14:44+00:00,5,5,1,2,0,0,2026-10-01 08:25:12+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000128,usr_20261001_000043,NL,children,premium,good,387.41,active,2026-09-14 01:15:55+00:00,3,3,1,0,0,0,2026-10-01 00:36:54+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000129,usr_20261001_000044,IT,women_clothing,value,very_good,406.84,active,2026-09-24 22:33:28+00:00,6,6,1,0,0,0,2026-10-01 09:28:22+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000130,usr_20261001_000045,NL,home,premium,very_good,426.27,reserved,2026-09-04 19:21:03+00:00,6,6,4,0,1,0,2026-10-01 05:18:18+00:00,2026-10-01 04:24:26+00:00,633.0563888888889,426.27,True,True,False,True,False
+lst_20261001_0000131,usr_20261001_000046,DE,men_clothing,premium,very_good,445.7,active,2026-09-13 11:23:11+00:00,5,5,2,0,0,0,2026-10-01 02:29:31+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000132,usr_20261001_000047,NL,women_clothing,mid_market,very_good,465.13,active,2026-09-09 22:53:18+00:00,3,3,2,0,0,0,2026-10-01 10:27:31+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000133,usr_20261001_000048,DE,children,mid_market,satisfactory,484.56,active,2026-09-26 13:46:35+00:00,2,2,0,0,0,0,2026-09-26 20:46:32+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000134,usr_20261001_000049,FR,women_clothing,mid_market,satisfactory,8.99,active,2026-09-05 19:49:45+00:00,8,8,2,0,0,0,2026-10-01 00:47:04+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000135,usr_20261001_000050,NL,women_clothing,value,very_good,28.42,active,2026-09-25 16:02:39+00:00,3,3,1,0,0,0,2026-10-01 11:27:30+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000136,usr_20261001_000051,BE,shoes,premium,very_good,47.85,active,2026-09-27 23:34:10+00:00,4,4,1,1,0,0,2026-10-01 00:31:26+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000137,usr_20261001_000052,BE,children,premium,good,67.28,active,2026-09-14 03:05:48+00:00,8,8,0,0,0,0,2026-10-01 07:05:01+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000138,usr_20261001_000053,FR,home,mid_market,good,86.71,active,2026-09-07 09:15:51+00:00,5,5,0,0,0,0,2026-10-01 14:38:20+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000139,usr_20261001_000054,LT,men_clothing,mid_market,very_good,106.14,active,2026-10-01 05:51:33+00:00,5,5,1,0,0,0,2026-10-01 14:08:28+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000140,usr_20261001_000055,PL,accessories,mid_market,very_good,125.57,active,2026-09-12 04:35:07+00:00,5,5,0,0,0,0,2026-10-01 06:13:10+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000141,usr_20261001_000056,NL,children,value,good,145.0,active,2026-09-14 05:03:10+00:00,4,3,1,1,0,0,2026-10-01 05:18:01+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000142,usr_20261001_000057,FR,men_clothing,value,very_good,164.43,reserved,2026-09-22 05:08:24+00:00,6,6,0,0,1,0,2026-09-30 11:35:02+00:00,2026-10-01 08:46:06+00:00,219.62833333333333,164.43,True,False,False,True,False
+lst_20261001_0000143,usr_20261001_000058,PL,home,premium,very_good,183.86,active,2026-09-24 11:46:24+00:00,4,4,2,1,0,0,2026-10-01 04:12:43+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000144,usr_20261001_000059,NL,women_clothing,value,very_good,203.29,active,2026-09-03 18:54:31+00:00,6,5,1,0,0,0,2026-10-01 02:16:55+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000145,usr_20261001_000060,IT,shoes,mid_market,new_with_tags,222.72,active,2026-09-29 15:30:37+00:00,4,4,2,1,0,0,2026-10-01 06:30:32+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000146,usr_20261001_000061,DE,accessories,mid_market,good,242.15,active,2026-09-16 11:58:08+00:00,2,2,1,1,0,0,2026-10-01 03:12:56+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000147,usr_20261001_000062,NL,women_clothing,value,very_good,261.58,active,2026-09-25 14:27:43+00:00,1,1,1,0,0,0,2026-10-01 09:12:03+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000148,usr_20261001_000063,IT,children,value,good,281.01,active,2026-09-05 04:53:40+00:00,6,6,0,2,0,0,2026-10-01 00:40:52+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000149,usr_20261001_000064,DE,women_clothing,mid_market,good,300.44,active,2026-09-27 14:43:07+00:00,4,4,3,0,0,0,2026-10-01 06:26:54+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000150,usr_20261001_000065,BE,children,value,very_good,319.87,sold,2026-09-12 17:52:30+00:00,10,10,1,1,1,1,2026-10-01 01:08:27+00:00,2026-10-01 07:49:19+00:00,445.94694444444445,319.87,True,True,True,True,True
+lst_20261001_0000151,usr_20261001_000066,ES,children,mid_market,new_with_tags,339.3,sold,2026-09-23 08:29:07+00:00,8,8,1,0,1,1,2026-10-01 07:41:24+00:00,2026-10-01 10:38:22+00:00,194.15416666666667,339.3,True,True,False,True,True
+lst_20261001_0000152,usr_20261001_000067,DE,women_clothing,mid_market,very_good,358.73,active,2026-09-08 07:25:09+00:00,7,7,1,1,0,0,2026-10-01 00:44:22+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000153,usr_20261001_000068,BE,accessories,mid_market,very_good,378.16,active,2026-09-19 00:08:39+00:00,3,3,0,1,0,0,2026-10-01 00:43:04+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000154,usr_20261001_000069,IT,children,mid_market,very_good,397.59,active,2026-09-03 05:50:31+00:00,2,2,0,0,0,0,2026-10-01 01:55:06+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000155,usr_20261001_000070,LT,shoes,value,satisfactory,417.02,active,2026-09-15 17:54:15+00:00,1,1,2,1,0,0,2026-10-01 22:10:55+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000156,usr_20261001_000071,IT,men_clothing,value,good,436.45,reserved,2026-09-26 08:03:16+00:00,4,4,0,0,1,0,2026-10-01 08:26:43+00:00,2026-10-01 17:53:22+00:00,129.835,436.45,True,False,False,True,False
+lst_20261001_0000157,usr_20261001_000072,FR,home,mid_market,good,455.88,sold,2026-09-15 03:32:06+00:00,4,4,1,0,1,0,2026-10-01 01:49:07+00:00,2026-10-01 00:36:06+00:00,381.06666666666666,455.88,True,True,False,True,False
+lst_20261001_0000158,usr_20261001_000073,ES,men_clothing,mid_market,very_good,475.31,active,2026-09-15 16:39:38+00:00,3,3,1,1,0,0,2026-10-01 15:40:42+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000159,usr_20261001_000074,LT,men_clothing,value,good,494.74,active,2026-09-23 13:46:02+00:00,7,7,0,0,0,0,2026-09-29 19:17:13+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000160,usr_20261001_000075,PL,women_clothing,premium,very_good,19.17,active,2026-09-06 21:51:33+00:00,4,4,1,1,0,0,2026-10-01 03:08:50+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000161,usr_20261001_000076,BE,women_clothing,value,very_good,38.6,active,2026-09-09 06:39:11+00:00,7,7,0,1,0,0,2026-10-01 00:44:46+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000162,usr_20261001_000077,IT,women_clothing,value,very_good,58.03,active,2026-09-10 09:59:35+00:00,5,5,1,0,0,0,2026-10-01 11:08:46+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000163,usr_20261001_000078,DE,children,value,good,77.46,sold,2026-09-13 03:21:43+00:00,3,3,1,1,1,1,2026-10-01 03:30:37+00:00,2026-10-01 20:01:46+00:00,448.6675,77.46,True,True,True,True,True
+lst_20261001_0000164,usr_20261001_000079,IT,women_clothing,mid_market,good,96.89,active,2026-09-20 12:59:14+00:00,4,4,0,0,0,0,2026-10-01 10:15:40+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000165,usr_20261001_000080,BE,shoes,mid_market,good,116.32,active,2026-09-08 00:47:17+00:00,4,4,1,1,0,0,2026-10-01 18:26:30+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000166,usr_20261001_000081,LT,home,mid_market,good,135.75,active,2026-09-11 10:43:08+00:00,6,6,1,0,0,0,2026-10-01 01:47:13+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000167,usr_20261001_000082,IT,women_clothing,mid_market,good,155.18,active,2026-09-27 00:48:11+00:00,5,5,0,1,0,0,2026-10-01 03:47:07+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000168,usr_20261001_000083,DE,electronics,value,very_good,174.61,active,2026-09-09 17:08:17+00:00,5,5,0,2,0,0,2026-10-01 03:34:42+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000169,usr_20261001_000084,IT,children,value,new_with_tags,194.04,sold,2026-09-16 14:09:16+00:00,1,1,0,1,1,0,2026-10-01 19:22:21+00:00,2026-10-01 17:52:49+00:00,363.72583333333336,194.04,True,False,True,True,False
+lst_20261001_0000170,usr_20261001_000000,FR,electronics,value,good,213.47,active,2026-09-06 16:29:25+00:00,7,7,0,2,0,0,2026-10-01 04:46:46+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000171,usr_20261001_000001,IT,electronics,mid_market,good,232.9,active,2026-09-03 17:31:25+00:00,1,1,0,1,0,0,2026-10-01 20:48:15+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000172,usr_20261001_000002,NL,women_clothing,value,very_good,252.33,active,2026-09-23 14:14:49+00:00,4,4,0,0,0,0,2026-10-01 00:45:53+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000173,usr_20261001_000003,DE,men_clothing,mid_market,very_good,271.76,active,2026-10-01 19:26:04+00:00,5,5,0,0,0,0,2026-10-01 20:37:22+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000174,usr_20261001_000004,FR,shoes,premium,good,291.19,active,2026-09-04 18:58:47+00:00,2,2,0,0,0,0,2026-10-01 07:56:27+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000175,usr_20261001_000005,BE,children,mid_market,good,310.62,sold,2026-09-05 06:58:40+00:00,3,3,1,2,1,1,2026-10-01 13:03:25+00:00,2026-10-01 00:44:24+00:00,617.7622222222222,310.62,True,True,True,True,True
+lst_20261001_0000176,usr_20261001_000006,BE,women_clothing,value,good,330.05,active,2026-09-26 19:27:59+00:00,2,2,0,0,0,0,2026-10-01 15:36:47+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000177,usr_20261001_000007,LT,accessories,value,very_good,349.48,active,2026-09-28 11:35:46+00:00,4,3,1,2,0,0,2026-10-01 10:23:27+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000178,usr_20261001_000008,NL,men_clothing,mid_market,very_good,368.91,sold,2026-09-02 17:14:35+00:00,3,3,1,1,1,0,2026-10-01 09:32:18+00:00,2026-10-01 07:22:52+00:00,686.1380555555555,368.91,True,True,True,True,False
+lst_20261001_0000179,usr_20261001_000009,PL,women_clothing,mid_market,new_with_tags,388.34,active,2026-09-29 16:37:22+00:00,3,3,1,1,0,0,2026-10-01 13:07:53+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000180,usr_20261001_000010,NL,men_clothing,value,very_good,407.77,active,2026-09-04 20:25:42+00:00,5,5,1,0,0,0,2026-10-01 00:31:48+00:00,,,0.0,True,True,False,False,False
+lst_20261001_0000181,usr_20261001_000011,NL,men_clothing,value,good,427.2,active,2026-09-01 00:21:43+00:00,2,2,0,0,0,0,2026-09-30 05:54:34+00:00,,,0.0,True,False,False,False,False
+lst_20261001_0000182,usr_20261001_000012,IT,electronics,mid_market,very_good,446.63,active,2026-09-04 04:19:56+00:00,3,3,2,1,0,0,2026-10-01 12:11:59+00:00,,,0.0,True,True,True,False,False
+lst_20261001_0000183,usr_20261001_000013,BE,women_clothing,luxury,very_good,466.06,active,2026-09-13 09:10:34+00:00,1,1,0,1,0,0,2026-10-01 07:53:13+00:00,,,0.0,True,False,True,False,False
+lst_20261001_0000184,usr_20261001_000014,BE,women_clothing,premium,very_good,485.49,active,2026-09-11 00:37:01+00:00,7,7,1,0,0,0,2026-09-30 13:10:46+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000000,usr_20261002_000000,NL,men_clothing,premium,satisfactory,375.74,active,2026-09-10 16:54:20+00:00,4,4,0,0,0,0,2026-10-02 05:38:00+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000001,usr_20261002_000001,ES,accessories,premium,good,395.17,active,2026-09-11 06:03:37+00:00,6,6,0,0,0,0,2026-10-02 02:34:14+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000002,usr_20261002_000002,FR,children,mid_market,satisfactory,414.6,active,2026-09-13 21:04:24+00:00,5,5,2,1,0,0,2026-10-02 00:56:04+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000003,usr_20261002_000003,BE,children,mid_market,very_good,434.03,active,2026-09-18 08:21:57+00:00,10,10,0,1,0,0,2026-10-02 00:39:12+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000004,usr_20261002_000004,FR,women_clothing,premium,new_with_tags,453.46,active,2026-09-10 13:17:05+00:00,4,4,0,2,0,0,2026-10-02 09:55:52+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000005,usr_20261002_000005,DE,shoes,value,good,472.89,active,2026-09-16 17:44:19+00:00,8,8,3,0,0,0,2026-09-29 15:19:23+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000006,usr_20261002_000006,ES,shoes,mid_market,new_with_tags,492.32,active,2026-09-21 06:05:16+00:00,6,6,1,1,0,0,2026-10-02 02:15:08+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000007,usr_20261002_000007,LT,electronics,premium,new_with_tags,16.75,active,2026-09-03 18:00:18+00:00,5,5,0,0,0,0,2026-10-02 04:28:51+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000008,usr_20261002_000008,NL,shoes,premium,very_good,36.18,active,2026-09-13 16:27:32+00:00,4,3,0,0,0,0,2026-10-02 00:22:52+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000009,usr_20261002_000009,PL,women_clothing,mid_market,very_good,55.61,active,2026-09-29 05:18:30+00:00,2,2,0,0,0,0,2026-10-02 08:35:41+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000010,usr_20261002_000010,BE,accessories,value,very_good,75.04,active,2026-09-21 12:33:43+00:00,3,3,1,0,0,0,2026-10-02 04:32:11+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000011,usr_20261002_000011,BE,children,mid_market,satisfactory,94.47,active,2026-10-01 11:00:50+00:00,4,4,1,0,0,0,2026-10-02 01:57:11+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000012,usr_20261002_000012,ES,women_clothing,mid_market,very_good,113.9,active,2026-09-23 12:09:21+00:00,5,5,0,0,0,0,2026-09-28 22:53:00+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000013,usr_20261002_000013,DE,women_clothing,mid_market,very_good,133.33,active,2026-09-09 01:25:56+00:00,3,3,0,0,0,0,2026-10-02 18:27:12+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000014,usr_20261002_000014,PL,women_clothing,value,good,152.76,active,2026-09-03 04:55:27+00:00,2,2,2,1,0,0,2026-10-02 05:51:31+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000015,usr_20261002_000015,NL,men_clothing,value,very_good,172.19,active,2026-09-08 02:06:30+00:00,8,8,0,0,0,0,2026-10-02 00:34:52+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000016,usr_20261002_000016,BE,electronics,mid_market,very_good,191.62,active,2026-09-24 03:25:26+00:00,9,9,1,1,0,0,2026-09-26 06:35:02+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000017,usr_20261002_000017,FR,shoes,mid_market,very_good,211.05,active,2026-09-14 04:17:50+00:00,5,5,0,0,0,0,2026-10-02 00:05:23+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000018,usr_20261002_000018,FR,children,value,very_good,230.48,active,2026-09-21 13:28:59+00:00,2,2,1,1,0,0,2026-10-02 02:10:47+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000019,usr_20261002_000019,ES,women_clothing,mid_market,good,249.91,active,2026-09-09 05:13:12+00:00,2,2,0,0,0,0,2026-10-02 15:05:01+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000020,usr_20261002_000020,IT,women_clothing,mid_market,good,269.34,active,2026-09-02 18:37:10+00:00,6,6,0,0,0,0,2026-10-02 01:47:58+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000021,usr_20261002_000021,BE,shoes,mid_market,good,288.77,active,2026-09-09 23:02:11+00:00,9,9,0,0,0,0,2026-10-02 02:41:40+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000022,usr_20261002_000022,BE,children,value,good,308.2,active,2026-10-01 03:08:42+00:00,9,8,0,0,0,0,2026-10-02 00:38:17+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000023,usr_20261002_000023,ES,children,premium,very_good,327.63,active,2026-09-17 14:13:57+00:00,4,4,0,0,0,0,2026-10-02 02:23:25+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000024,usr_20261002_000024,DE,men_clothing,mid_market,very_good,347.06,active,2026-09-14 09:48:06+00:00,2,2,0,0,0,0,2026-10-02 18:56:07+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000025,usr_20261002_000025,BE,women_clothing,value,good,366.49,active,2026-10-02 13:39:52+00:00,1,1,2,0,0,0,2026-10-02 14:56:53+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000026,usr_20261002_000026,DE,men_clothing,premium,very_good,385.92,sold,2026-09-29 00:00:23+00:00,2,2,2,0,1,1,2026-10-02 02:59:11+00:00,2026-10-02 07:11:02+00:00,79.1775,385.92,True,True,False,True,True
+lst_20261002_0000027,usr_20261002_000027,NL,shoes,mid_market,very_good,405.35,active,2026-09-10 08:39:12+00:00,7,7,0,0,0,0,2026-10-02 03:27:26+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000028,usr_20261002_000028,DE,shoes,value,new_with_tags,424.78,sold,2026-09-03 04:53:15+00:00,3,3,0,1,1,0,2026-10-02 00:23:02+00:00,2026-10-02 15:37:38+00:00,706.7397222222222,424.78,True,False,True,True,False
+lst_20261002_0000029,usr_20261002_000029,IT,accessories,mid_market,good,444.21,active,2026-09-18 04:04:02+00:00,2,2,0,3,0,0,2026-10-02 08:56:24+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000030,usr_20261002_000030,NL,children,mid_market,satisfactory,463.64,active,2026-09-16 14:37:15+00:00,3,3,1,2,0,0,2026-10-02 02:16:16+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000031,usr_20261002_000031,IT,women_clothing,value,good,483.07,sold,2026-09-26 10:35:52+00:00,4,4,3,0,1,1,2026-10-02 01:47:05+00:00,2026-10-02 10:42:15+00:00,144.1063888888889,483.07,True,True,False,True,True
+lst_20261002_0000032,usr_20261002_000032,FR,women_clothing,value,very_good,7.5,active,2026-09-09 16:36:44+00:00,6,6,0,1,0,0,2026-10-02 02:05:50+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000033,usr_20261002_000033,IT,children,mid_market,very_good,26.93,active,2026-09-29 20:29:35+00:00,7,7,2,1,0,0,2026-10-02 00:22:22+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000034,usr_20261002_000034,DE,men_clothing,value,very_good,46.36,active,2026-09-16 07:41:53+00:00,4,4,0,0,0,0,2026-09-29 08:22:15+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000035,usr_20261002_000035,NL,electronics,mid_market,very_good,65.79,sold,2026-09-24 16:55:58+00:00,6,6,0,0,1,0,2026-10-02 01:35:35+00:00,2026-10-02 22:53:04+00:00,197.95166666666665,65.79,True,False,False,True,False
+lst_20261002_0000036,usr_20261002_000036,PL,men_clothing,value,very_good,85.22,active,2026-09-05 21:31:02+00:00,2,2,0,0,0,0,2026-10-02 04:40:31+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000037,usr_20261002_000037,ES,women_clothing,mid_market,satisfactory,104.65,active,2026-09-21 03:37:55+00:00,1,1,2,0,0,0,2026-10-02 12:27:09+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000038,usr_20261002_000038,FR,women_clothing,value,very_good,124.08,active,2026-09-21 20:11:00+00:00,3,3,0,1,0,0,2026-10-02 02:14:43+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000039,usr_20261002_000039,NL,home,mid_market,new_with_tags,143.51,active,2026-09-13 14:23:59+00:00,6,6,0,0,0,0,2026-10-02 04:39:59+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000040,usr_20261002_000040,PL,men_clothing,value,very_good,162.94,active,2026-09-18 01:49:30+00:00,8,7,1,1,0,0,2026-10-02 01:17:41+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000041,usr_20261002_000041,ES,home,mid_market,good,182.37,active,2026-10-02 15:52:35+00:00,7,6,0,0,0,0,2026-10-02 16:47:18+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000042,usr_20261002_000042,NL,women_clothing,mid_market,very_good,201.8,active,2026-09-13 15:03:52+00:00,5,5,1,0,0,0,2026-09-29 13:16:09+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000043,usr_20261002_000043,IT,shoes,value,good,221.23,active,2026-09-30 22:04:22+00:00,2,2,2,0,0,0,2026-10-02 03:54:20+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000044,usr_20261002_000044,LT,men_clothing,mid_market,satisfactory,240.66,sold,2026-09-09 15:20:34+00:00,6,6,1,0,1,1,2026-10-02 01:22:34+00:00,2026-10-02 18:06:50+00:00,554.7711111111112,240.66,True,True,False,True,True
+lst_20261002_0000045,usr_20261002_000045,BE,shoes,value,very_good,260.09,active,2026-09-14 04:48:53+00:00,3,3,0,0,0,0,2026-10-02 02:46:10+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000046,usr_20261002_000046,DE,women_clothing,mid_market,good,279.52,active,2026-09-18 12:37:51+00:00,2,2,3,0,0,0,2026-10-02 05:58:48+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000047,usr_20261002_000047,PL,home,mid_market,very_good,298.95,active,2026-10-01 03:45:36+00:00,2,2,0,0,0,0,2026-10-02 07:43:41+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000048,usr_20261002_000048,PL,women_clothing,value,good,318.38,active,2026-09-10 05:59:01+00:00,9,7,0,0,0,0,2026-10-02 04:12:28+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000049,usr_20261002_000049,NL,children,mid_market,good,337.81,active,2026-09-13 13:40:01+00:00,7,7,1,0,0,0,2026-10-02 00:06:31+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000050,usr_20261002_000050,BE,electronics,value,good,357.24,active,2026-09-07 00:39:54+00:00,6,6,0,1,0,0,2026-10-02 02:57:24+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000051,usr_20261002_000051,LT,men_clothing,value,very_good,376.67,active,2026-09-03 16:18:14+00:00,2,2,0,0,0,0,2026-10-02 09:19:35+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000052,usr_20261002_000052,NL,electronics,premium,very_good,396.1,active,2026-09-30 03:14:54+00:00,7,7,1,1,0,0,2026-10-02 04:49:46+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000053,usr_20261002_000053,ES,women_clothing,mid_market,good,415.53,active,2026-09-12 07:42:52+00:00,3,3,1,0,0,0,2026-10-02 03:56:24+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000054,usr_20261002_000054,LT,children,luxury,satisfactory,434.96,active,2026-10-01 10:50:23+00:00,4,4,3,1,0,0,2026-10-02 02:22:16+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000055,usr_20261002_000055,NL,children,mid_market,very_good,454.39,active,2026-09-27 12:44:55+00:00,1,1,1,0,0,0,2026-10-02 03:28:22+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000056,usr_20261002_000056,IT,home,mid_market,good,473.82,active,2026-10-01 02:40:08+00:00,5,4,2,1,0,0,2026-10-01 15:37:34+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000057,usr_20261002_000057,FR,women_clothing,value,good,493.25,active,2026-09-25 05:12:11+00:00,7,7,1,0,0,0,2026-10-02 03:28:42+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000058,usr_20261002_000058,ES,accessories,mid_market,very_good,17.68,active,2026-10-02 09:33:48+00:00,4,4,1,0,0,0,2026-10-02 12:19:11+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000059,usr_20261002_000059,LT,men_clothing,luxury,very_good,37.11,active,2026-09-06 06:14:07+00:00,4,4,0,1,0,0,2026-10-02 09:16:30+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000060,usr_20261002_000060,PL,children,mid_market,very_good,56.54,active,2026-09-02 05:42:46+00:00,5,5,3,0,0,0,2026-10-02 08:41:30+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000061,usr_20261002_000061,NL,men_clothing,mid_market,very_good,75.97,active,2026-09-04 03:19:02+00:00,5,5,2,0,0,0,2026-10-02 01:59:53+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000062,usr_20261002_000062,FR,women_clothing,value,good,95.4,reserved,2026-09-12 09:26:25+00:00,5,5,2,0,1,0,2026-09-27 00:56:36+00:00,2026-10-02 15:21:12+00:00,485.91305555555556,95.4,True,True,False,True,False
+lst_20261002_0000063,usr_20261002_000063,LT,men_clothing,premium,very_good,114.83,active,2026-09-24 21:12:56+00:00,7,7,0,0,0,0,2026-10-02 00:46:02+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000064,usr_20261002_000064,ES,men_clothing,mid_market,very_good,134.26,active,2026-09-05 08:17:05+00:00,6,6,1,0,0,0,2026-10-02 02:23:03+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000065,usr_20261002_000065,BE,children,premium,very_good,153.69,active,2026-09-27 20:51:00+00:00,4,4,0,1,0,0,2026-10-02 02:14:28+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000066,usr_20261002_000066,LT,women_clothing,premium,good,173.12,active,2026-09-11 18:15:31+00:00,1,1,0,0,0,0,2026-10-02 00:56:01+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000067,usr_20261002_000067,NL,women_clothing,value,very_good,192.55,active,2026-10-01 16:13:32+00:00,2,2,0,0,0,0,2026-10-02 10:55:07+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000068,usr_20261002_000068,DE,accessories,mid_market,very_good,211.98,active,2026-09-16 03:12:41+00:00,1,1,1,0,0,0,2026-10-02 23:03:41+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000069,usr_20261002_000069,ES,women_clothing,premium,very_good,231.41,active,2026-09-09 14:12:11+00:00,7,7,2,0,0,0,2026-10-02 00:37:56+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000070,usr_20261002_000070,IT,home,value,very_good,250.84,active,2026-09-02 23:44:04+00:00,3,3,0,1,0,0,2026-10-02 15:09:45+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000071,usr_20261002_000071,DE,women_clothing,mid_market,satisfactory,270.27,active,2026-09-05 22:29:11+00:00,5,5,2,0,0,0,2026-10-02 05:40:13+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000072,usr_20261002_000072,PL,shoes,value,satisfactory,289.7,active,2026-09-29 04:13:41+00:00,8,8,1,0,1,0,2026-10-02 00:42:05+00:00,,,0.0,True,True,False,True,False
+lst_20261002_0000073,usr_20261002_000073,ES,shoes,mid_market,very_good,309.13,active,2026-09-09 03:47:56+00:00,4,4,1,0,0,0,2026-10-02 01:26:05+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000074,usr_20261002_000074,BE,accessories,premium,good,328.56,active,2026-10-02 19:47:51+00:00,4,4,0,0,0,0,2026-10-02 20:43:34+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000075,usr_20261002_000075,LT,home,mid_market,satisfactory,347.99,active,2026-09-16 19:42:21+00:00,6,6,0,2,0,0,2026-10-02 00:50:55+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000076,usr_20261002_000076,FR,women_clothing,premium,very_good,367.42,active,2026-09-11 03:18:31+00:00,7,7,0,1,0,0,2026-10-01 03:12:25+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000077,usr_20261002_000077,DE,shoes,value,very_good,386.85,active,2026-09-23 05:39:12+00:00,6,6,0,0,0,0,2026-10-02 01:49:09+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000078,usr_20261002_000078,DE,men_clothing,value,very_good,406.28,sold,2026-09-21 18:34:09+00:00,8,8,0,0,1,1,2026-10-02 01:06:46+00:00,2026-10-02 16:09:08+00:00,261.5830555555556,406.28,True,False,False,True,True
+lst_20261002_0000079,usr_20261002_000079,IT,accessories,value,very_good,425.71,active,2026-09-17 16:17:41+00:00,2,2,2,0,0,0,2026-10-02 13:24:38+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000080,usr_20261002_000080,IT,shoes,mid_market,new_with_tags,445.14,active,2026-09-02 02:04:15+00:00,1,1,0,1,0,0,2026-10-02 09:01:09+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000081,usr_20261002_000081,NL,women_clothing,premium,very_good,464.57,active,2026-09-03 12:40:54+00:00,5,5,0,1,0,0,2026-10-02 01:57:34+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000082,usr_20261002_000082,DE,men_clothing,value,very_good,484.0,sold,2026-09-23 11:02:12+00:00,9,9,1,0,1,0,2026-09-29 14:52:19+00:00,2026-10-02 02:55:41+00:00,207.89138888888888,484.0,True,True,False,True,False
+lst_20261002_0000083,usr_20261002_000083,BE,accessories,value,good,8.43,sold,2026-09-09 07:00:27+00:00,5,5,0,0,1,1,2026-10-02 01:48:41+00:00,2026-10-02 14:49:33+00:00,559.8183333333334,8.43,True,False,False,True,True
+lst_20261002_0000084,usr_20261002_000084,DE,women_clothing,mid_market,very_good,27.86,active,2026-09-11 01:20:04+00:00,5,4,0,0,0,0,2026-10-02 00:26:33+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000085,usr_20261002_000000,NL,shoes,mid_market,satisfactory,47.29,active,2026-09-07 23:04:52+00:00,7,7,0,0,0,0,2026-10-02 05:46:01+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000086,usr_20261002_000001,ES,shoes,value,good,66.72,active,2026-09-24 22:59:46+00:00,5,5,2,0,0,0,2026-10-02 10:52:30+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000087,usr_20261002_000002,FR,children,premium,good,86.15,sold,2026-09-08 22:11:17+00:00,6,6,0,1,1,0,2026-10-02 04:47:31+00:00,2026-10-02 18:00:55+00:00,571.8272222222222,86.15,True,False,True,True,False
+lst_20261002_0000088,usr_20261002_000003,BE,men_clothing,mid_market,good,105.58,sold,2026-09-07 06:41:00+00:00,4,4,1,1,1,1,2026-10-02 00:36:53+00:00,2026-10-02 22:28:51+00:00,615.7975,105.58,True,True,True,True,True
+lst_20261002_0000089,usr_20261002_000004,FR,women_clothing,premium,very_good,125.01,active,2026-09-06 13:19:04+00:00,6,6,0,1,0,0,2026-10-02 02:46:17+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000090,usr_20261002_000005,DE,women_clothing,mid_market,very_good,144.44,active,2026-09-21 09:47:04+00:00,3,3,3,1,0,0,2026-10-02 03:27:44+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000091,usr_20261002_000006,ES,men_clothing,mid_market,very_good,163.87,active,2026-09-03 06:29:26+00:00,7,7,0,0,0,0,2026-10-02 00:20:01+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000092,usr_20261002_000007,LT,shoes,mid_market,very_good,183.3,active,2026-09-18 08:39:08+00:00,3,3,0,0,0,0,2026-10-02 04:00:39+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000093,usr_20261002_000008,NL,accessories,mid_market,new_with_tags,202.73,sold,2026-09-12 05:32:00+00:00,5,5,0,0,1,1,2026-10-02 01:58:27+00:00,2026-10-02 15:55:34+00:00,490.3927777777778,202.73,True,False,False,True,True
+lst_20261002_0000094,usr_20261002_000009,PL,women_clothing,mid_market,very_good,222.16,active,2026-09-03 13:27:41+00:00,10,10,3,0,0,0,2026-10-02 00:52:40+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000095,usr_20261002_000010,BE,electronics,premium,satisfactory,241.59,active,2026-09-24 07:37:26+00:00,5,5,0,0,0,0,2026-10-02 03:54:55+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000096,usr_20261002_000011,BE,accessories,value,new_with_tags,261.02,active,2026-09-13 09:15:54+00:00,12,10,2,1,0,0,2026-10-02 00:31:20+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000097,usr_20261002_000012,ES,shoes,mid_market,very_good,280.45,active,2026-09-19 07:18:13+00:00,9,9,0,0,0,0,2026-10-02 01:57:11+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000098,usr_20261002_000013,DE,women_clothing,luxury,very_good,299.88,sold,2026-09-20 12:13:23+00:00,9,9,0,1,1,1,2026-10-02 00:35:44+00:00,2026-10-02 16:29:23+00:00,292.26666666666665,299.88,True,False,True,True,True
+lst_20261002_0000099,usr_20261002_000014,PL,shoes,value,very_good,319.31,active,2026-09-21 23:01:03+00:00,3,3,1,0,0,0,2026-10-02 10:09:52+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000100,usr_20261002_000015,NL,women_clothing,premium,satisfactory,338.74,active,2026-09-08 01:29:19+00:00,8,8,0,0,0,0,2026-10-02 00:02:00+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000101,usr_20261002_000016,BE,men_clothing,value,very_good,358.17,active,2026-09-02 01:19:38+00:00,3,3,1,1,0,0,2026-10-02 00:47:28+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000102,usr_20261002_000017,FR,children,premium,good,377.6,active,2026-09-16 18:21:45+00:00,2,2,1,0,0,0,2026-10-02 12:06:26+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000103,usr_20261002_000018,FR,women_clothing,value,satisfactory,397.03,active,2026-10-01 15:11:45+00:00,3,3,0,0,1,0,2026-10-02 07:15:19+00:00,,,0.0,True,False,False,True,False
+lst_20261002_0000104,usr_20261002_000019,ES,children,mid_market,good,416.46,active,2026-09-24 05:31:18+00:00,5,5,0,0,0,0,2026-10-02 00:27:44+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000105,usr_20261002_000020,IT,children,mid_market,good,435.89,active,2026-09-13 03:39:49+00:00,4,4,0,1,0,0,2026-10-02 03:27:13+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000106,usr_20261002_000021,BE,children,mid_market,very_good,455.32,active,2026-09-28 04:26:18+00:00,7,5,0,1,0,0,2026-10-02 12:11:59+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000107,usr_20261002_000022,BE,accessories,mid_market,satisfactory,474.75,active,2026-09-16 13:55:44+00:00,2,2,0,1,0,0,2026-10-02 08:36:26+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000108,usr_20261002_000023,ES,women_clothing,premium,very_good,494.18,active,2026-09-25 05:11:52+00:00,2,2,0,0,0,0,2026-10-02 07:43:05+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000109,usr_20261002_000024,DE,women_clothing,value,very_good,18.61,active,2026-09-04 08:48:35+00:00,5,5,2,1,0,0,2026-10-02 01:52:38+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000110,usr_20261002_000025,BE,women_clothing,value,good,38.04,sold,2026-09-25 21:55:37+00:00,6,6,0,1,1,0,2026-10-02 00:28:27+00:00,2026-10-02 07:46:20+00:00,153.84527777777777,38.04,True,False,True,True,False
+lst_20261002_0000111,usr_20261002_000026,DE,accessories,premium,new_with_tags,57.47,active,2026-09-02 05:45:11+00:00,2,2,1,0,0,0,2026-10-02 12:11:58+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000112,usr_20261002_000027,NL,women_clothing,value,good,76.9,active,2026-09-14 03:19:51+00:00,7,7,2,2,0,0,2026-10-02 04:11:08+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000113,usr_20261002_000028,DE,men_clothing,value,very_good,96.33,active,2026-09-07 12:39:11+00:00,7,7,0,0,0,0,2026-10-02 00:57:16+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000114,usr_20261002_000029,IT,men_clothing,luxury,new_with_tags,115.76,active,2026-09-19 10:31:31+00:00,5,5,1,1,0,0,2026-10-02 01:29:15+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000115,usr_20261002_000030,NL,accessories,premium,satisfactory,135.19,active,2026-09-30 13:35:59+00:00,4,3,1,0,0,0,2026-10-01 22:42:41+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000116,usr_20261002_000031,IT,accessories,value,very_good,154.62,active,2026-09-14 08:50:17+00:00,4,4,2,0,0,0,2026-10-02 08:18:36+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000117,usr_20261002_000032,FR,shoes,mid_market,very_good,174.05,active,2026-09-12 19:13:10+00:00,8,8,1,0,0,0,2026-10-02 04:41:51+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000118,usr_20261002_000033,IT,men_clothing,mid_market,very_good,193.48,active,2026-09-02 15:55:37+00:00,6,6,2,1,1,0,2026-10-02 08:20:53+00:00,,,0.0,True,True,True,True,False
+lst_20261002_0000119,usr_20261002_000034,DE,electronics,value,good,212.91,active,2026-09-14 19:23:57+00:00,3,3,0,1,0,0,2026-09-25 07:29:27+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000120,usr_20261002_000035,NL,women_clothing,mid_market,good,232.34,sold,2026-09-16 22:25:07+00:00,4,4,0,0,1,1,2026-10-02 00:08:13+00:00,2026-10-02 21:57:29+00:00,383.5394444444444,232.34,True,False,False,True,True
+lst_20261002_0000121,usr_20261002_000036,PL,home,premium,new_with_tags,251.77,active,2026-09-14 16:13:47+00:00,4,4,0,0,0,0,2026-10-02 03:17:24+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000122,usr_20261002_000037,ES,home,mid_market,good,271.2,active,2026-09-18 02:42:13+00:00,7,6,0,0,0,0,2026-10-02 01:26:03+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000123,usr_20261002_000038,FR,children,mid_market,good,290.63,active,2026-09-09 16:47:51+00:00,7,6,1,0,0,0,2026-10-02 02:01:33+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000124,usr_20261002_000039,NL,men_clothing,mid_market,satisfactory,310.06,active,2026-09-03 13:29:23+00:00,4,3,0,1,0,0,2026-10-02 10:27:59+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000125,usr_20261002_000040,PL,electronics,value,very_good,329.49,active,2026-09-17 13:54:45+00:00,2,2,0,1,0,0,2026-10-02 11:03:03+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000126,usr_20261002_000041,ES,women_clothing,mid_market,good,348.92,active,2026-09-05 10:12:04+00:00,4,4,3,0,0,0,2026-10-02 14:26:14+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000127,usr_20261002_000042,NL,home,mid_market,very_good,368.35,active,2026-09-25 16:18:01+00:00,9,9,0,1,0,0,2026-09-30 11:34:19+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000128,usr_20261002_000043,IT,women_clothing,luxury,satisfactory,387.78,active,2026-09-09 06:36:50+00:00,6,6,3,0,0,0,2026-10-02 05:05:37+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000129,usr_20261002_000044,LT,shoes,premium,new_with_tags,407.21,active,2026-10-02 03:36:17+00:00,6,6,1,0,0,0,2026-10-02 13:44:03+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000130,usr_20261002_000045,BE,children,value,very_good,426.64,active,2026-09-04 04:40:44+00:00,8,8,1,0,0,0,2026-10-02 00:30:33+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000131,usr_20261002_000046,DE,women_clothing,value,very_good,446.07,active,2026-09-13 09:06:22+00:00,2,2,0,0,0,0,2026-10-02 08:01:56+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000132,usr_20261002_000047,PL,accessories,mid_market,good,465.5,sold,2026-10-02 02:46:28+00:00,5,5,1,0,1,0,2026-10-02 03:32:21+00:00,2026-10-02 07:22:16+00:00,4.596666666666667,465.5,True,True,False,True,False
+lst_20261002_0000133,usr_20261002_000048,PL,children,premium,new_with_tags,484.93,active,2026-09-24 07:49:59+00:00,6,6,0,0,0,0,2026-09-27 04:53:44+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000134,usr_20261002_000049,NL,children,luxury,new_with_tags,9.36,active,2026-09-03 15:32:44+00:00,5,5,0,2,0,0,2026-10-02 00:47:40+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000135,usr_20261002_000050,BE,men_clothing,premium,very_good,28.79,sold,2026-10-01 07:53:11+00:00,2,2,0,0,1,1,2026-10-02 13:49:24+00:00,2026-10-02 00:21:55+00:00,16.47888888888889,28.79,True,False,False,True,True
+lst_20261002_0000136,usr_20261002_000051,LT,women_clothing,value,good,48.22,active,2026-09-02 16:22:21+00:00,2,2,1,1,0,0,2026-10-02 09:26:47+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000137,usr_20261002_000052,NL,men_clothing,mid_market,very_good,67.65,sold,2026-09-30 04:06:41+00:00,1,1,0,0,1,1,2026-10-02 16:50:23+00:00,2026-10-02 09:58:45+00:00,53.867777777777775,67.65,True,False,False,True,True
+lst_20261002_0000138,usr_20261002_000053,ES,men_clothing,mid_market,good,87.08,active,2026-09-27 16:17:36+00:00,7,7,0,0,0,0,2026-10-02 02:28:32+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000139,usr_20261002_000054,LT,home,premium,very_good,106.51,active,2026-09-18 08:10:18+00:00,4,4,2,0,0,0,2026-10-02 10:29:23+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000140,usr_20261002_000055,NL,men_clothing,mid_market,very_good,125.94,active,2026-09-26 14:35:20+00:00,5,5,0,0,0,0,2026-10-02 00:05:00+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000141,usr_20261002_000056,IT,children,value,good,145.37,active,2026-09-06 12:21:12+00:00,5,5,1,0,0,0,2026-10-02 12:28:46+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000142,usr_20261002_000057,FR,children,value,very_good,164.8,active,2026-09-09 12:11:21+00:00,3,3,1,1,0,0,2026-10-02 00:29:36+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000143,usr_20261002_000058,ES,children,value,good,184.23,active,2026-09-06 03:46:26+00:00,7,7,2,1,0,0,2026-10-02 02:52:10+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000144,usr_20261002_000059,LT,home,mid_market,good,203.66,active,2026-09-06 15:13:48+00:00,2,2,0,0,1,0,2026-10-02 15:33:31+00:00,,,0.0,True,False,False,True,False
+lst_20261002_0000145,usr_20261002_000060,PL,shoes,mid_market,very_good,223.09,active,2026-09-27 07:51:48+00:00,4,4,2,0,0,0,2026-10-02 06:18:07+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000146,usr_20261002_000061,NL,women_clothing,value,very_good,242.52,active,2026-09-21 16:10:14+00:00,3,3,1,1,0,0,2026-10-02 09:43:23+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000147,usr_20261002_000062,FR,home,mid_market,very_good,261.95,active,2026-09-13 17:07:44+00:00,7,7,1,0,0,0,2026-10-02 05:16:57+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000148,usr_20261002_000063,LT,shoes,value,very_good,281.38,active,2026-09-23 12:04:21+00:00,5,5,1,0,0,0,2026-10-02 00:41:55+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000149,usr_20261002_000064,ES,home,mid_market,new_with_tags,300.81,active,2026-09-07 01:23:33+00:00,7,7,2,0,1,0,2026-09-25 14:24:21+00:00,,,0.0,True,True,False,True,False
+lst_20261002_0000150,usr_20261002_000065,BE,home,value,satisfactory,320.24,active,2026-10-02 20:08:24+00:00,4,4,0,0,0,0,2026-10-02 22:24:50+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000151,usr_20261002_000066,LT,men_clothing,mid_market,very_good,339.67,reserved,2026-09-30 03:13:18+00:00,3,3,1,0,1,0,2026-10-02 03:52:16+00:00,2026-10-02 10:57:00+00:00,55.72833333333333,339.67,True,True,False,True,False
+lst_20261002_0000152,usr_20261002_000067,NL,women_clothing,mid_market,very_good,359.1,active,2026-09-18 12:10:28+00:00,5,5,0,0,0,0,2026-10-02 05:19:02+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000153,usr_20261002_000068,DE,electronics,premium,very_good,378.53,active,2026-09-14 11:15:00+00:00,4,4,1,0,0,0,2026-10-02 06:09:43+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000154,usr_20261002_000069,ES,men_clothing,value,very_good,397.96,active,2026-09-12 15:26:35+00:00,6,6,1,0,0,0,2026-10-02 01:38:58+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000155,usr_20261002_000070,IT,shoes,mid_market,very_good,417.39,sold,2026-09-28 10:41:40+00:00,4,4,3,0,1,1,2026-10-02 03:40:24+00:00,2026-10-02 11:45:49+00:00,97.06916666666666,417.39,True,True,False,True,True
+lst_20261002_0000156,usr_20261002_000071,DE,men_clothing,mid_market,new_with_tags,436.82,active,2026-09-17 04:15:09+00:00,1,1,0,0,0,0,2026-10-02 04:51:51+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000157,usr_20261002_000072,PL,women_clothing,value,satisfactory,456.25,active,2026-09-20 14:56:51+00:00,5,5,1,0,0,0,2026-10-02 00:50:37+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000158,usr_20261002_000073,ES,men_clothing,mid_market,good,475.68,active,2026-09-15 08:57:53+00:00,3,3,0,0,0,0,2026-09-28 01:47:32+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000159,usr_20261002_000074,BE,children,mid_market,good,495.11,active,2026-09-15 03:10:24+00:00,3,3,2,0,0,0,2026-10-02 05:55:20+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000160,usr_20261002_000075,LT,women_clothing,premium,very_good,19.54,active,2026-10-01 13:36:14+00:00,5,5,1,0,0,0,2026-10-02 00:21:27+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000161,usr_20261002_000076,FR,accessories,mid_market,good,38.97,active,2026-09-24 08:14:21+00:00,3,3,0,0,0,0,2026-10-02 05:22:32+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000162,usr_20261002_000077,DE,men_clothing,premium,satisfactory,58.4,active,2026-09-26 07:09:55+00:00,2,2,0,0,0,0,2026-10-02 14:10:30+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000163,usr_20261002_000078,DE,shoes,mid_market,good,77.83,active,2026-09-07 17:15:49+00:00,2,2,1,0,0,0,2026-09-26 04:29:13+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000164,usr_20261002_000079,IT,shoes,value,good,97.26,active,2026-09-30 16:11:57+00:00,3,3,1,1,0,0,2026-10-02 13:28:47+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000165,usr_20261002_000080,IT,men_clothing,mid_market,very_good,116.69,sold,2026-09-15 10:40:32+00:00,6,6,0,0,1,1,2026-10-02 01:01:12+00:00,2026-10-02 17:08:25+00:00,414.46472222222224,116.69,True,False,False,True,True
+lst_20261002_0000166,usr_20261002_000081,NL,women_clothing,premium,good,136.12,sold,2026-09-06 08:48:00+00:00,11,11,1,0,1,1,2026-10-02 00:08:47+00:00,2026-10-02 12:38:55+00:00,627.8486111111112,136.12,True,True,False,True,True
+lst_20261002_0000167,usr_20261002_000082,DE,men_clothing,value,very_good,155.55,active,2026-09-19 13:39:18+00:00,7,7,1,0,0,0,2026-10-02 00:36:48+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000168,usr_20261002_000083,BE,men_clothing,value,good,174.98,active,2026-09-10 04:35:02+00:00,6,5,0,0,0,0,2026-10-02 04:09:43+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000169,usr_20261002_000084,DE,shoes,mid_market,very_good,194.41,active,2026-09-17 03:14:34+00:00,3,3,1,2,0,0,2026-10-02 03:51:13+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000170,usr_20261002_000000,NL,shoes,premium,good,213.84,active,2026-09-23 09:37:14+00:00,1,1,0,1,0,0,2026-10-02 12:48:52+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000171,usr_20261002_000001,ES,men_clothing,mid_market,new_with_tags,233.27,sold,2026-09-03 22:31:44+00:00,6,5,0,0,1,1,2026-10-02 00:35:38+00:00,2026-10-02 23:59:52+00:00,697.4688888888888,233.27,True,False,False,True,True
+lst_20261002_0000172,usr_20261002_000002,FR,shoes,premium,very_good,252.7,active,2026-09-16 14:32:17+00:00,6,6,1,0,0,0,2026-10-02 04:42:07+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000173,usr_20261002_000003,BE,home,mid_market,good,272.13,active,2026-09-04 11:00:16+00:00,8,8,2,0,0,0,2026-10-02 03:28:40+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000174,usr_20261002_000004,FR,children,value,good,291.56,sold,2026-09-11 17:16:47+00:00,6,6,0,0,1,0,2026-10-02 02:52:19+00:00,2026-10-02 17:20:34+00:00,504.06305555555554,291.56,True,False,False,True,False
+lst_20261002_0000175,usr_20261002_000005,DE,home,mid_market,new_with_tags,310.99,reserved,2026-09-02 16:56:10+00:00,4,4,0,1,1,0,2026-09-29 01:37:36+00:00,2026-10-02 12:54:55+00:00,715.9791666666666,310.99,True,False,True,True,False
+lst_20261002_0000176,usr_20261002_000006,ES,shoes,value,very_good,330.42,active,2026-09-07 13:33:42+00:00,4,4,2,0,0,0,2026-10-02 04:52:55+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000177,usr_20261002_000007,LT,women_clothing,mid_market,very_good,349.85,active,2026-09-20 02:50:50+00:00,6,5,0,0,0,0,2026-10-02 01:22:36+00:00,,,0.0,True,False,False,False,False
+lst_20261002_0000178,usr_20261002_000008,NL,men_clothing,mid_market,very_good,369.28,active,2026-09-03 09:31:10+00:00,8,8,1,1,0,0,2026-10-02 02:42:18+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000179,usr_20261002_000009,PL,accessories,value,very_good,388.71,active,2026-09-21 06:53:59+00:00,4,4,2,0,0,0,2026-10-02 05:56:47+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000180,usr_20261002_000010,BE,men_clothing,mid_market,very_good,408.14,active,2026-09-12 12:39:20+00:00,9,9,1,0,0,0,2026-10-02 00:22:00+00:00,,,0.0,True,True,False,False,False
+lst_20261002_0000181,usr_20261002_000011,BE,women_clothing,value,good,427.57,active,2026-09-15 09:04:37+00:00,4,4,0,1,0,0,2026-10-02 02:11:39+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000182,usr_20261002_000012,ES,women_clothing,value,very_good,447.0,active,2026-09-24 19:56:03+00:00,4,4,0,1,0,0,2026-10-02 08:31:04+00:00,,,0.0,True,False,True,False,False
+lst_20261002_0000183,usr_20261002_000013,DE,children,mid_market,good,466.43,active,2026-09-16 03:28:32+00:00,4,4,3,1,0,0,2026-10-02 02:55:04+00:00,,,0.0,True,True,True,False,False
+lst_20261002_0000184,usr_20261002_000014,PL,electronics,premium,good,485.86,active,2026-09-05 08:07:52+00:00,2,2,1,0,0,0,2026-10-02 09:54:05+00:00,,,0.0,True,True,False,False,False

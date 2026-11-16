@@ -1,0 +1,59 @@
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "recommerce-analytics-platform"
+version = "0.1.0"
+description = "Production-like data platform for a synthetic second-hand marketplace"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Zamin Mammadov" }]
+dependencies = [
+  "click==8.1.8",
+  "pandas==2.2.3",
+  "psycopg[binary]==3.2.3",
+  "python-dotenv==1.0.1",
+  "sqlalchemy==2.0.36",
+  "typer==0.15.1",
+]
+
+[project.optional-dependencies]
+warehouse = [
+  "dbt-core==1.9.1",
+  "dbt-postgres==1.9.0",
+]
+dev = [
+  "pytest==8.3.4",
+  "pytest-cov==6.0.0",
+  "ruff==0.8.6",
+]
+dashboard = [
+  "plotly==5.24.1",
+  "streamlit==1.41.1",
+]
+
+[project.scripts]
+recommerce = "recommerce.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/recommerce"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"sql/bootstrap.sql" = "recommerce/resources/bootstrap.sql"
+
+[tool.pytest.ini_options]
+addopts = "-q --strict-markers"
+testpaths = ["tests"]
+markers = ["integration: requires an explicitly configured local PostgreSQL test server"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+
+[tool.ruff.format]
+quote-style = "double"

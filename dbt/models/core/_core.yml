@@ -1,0 +1,71 @@
+version: 2
+
+models:
+  - name: dim_users
+    description: Current user dimension. Historical versions live in snapshots.users_snapshot.
+    columns:
+      - name: user_key
+        data_tests: [not_null, unique]
+      - name: user_id
+        data_tests: [not_null, unique]
+
+  - name: dim_listings
+    description: Current listing dimension. Historical price/status versions live in snapshots.listings_snapshot.
+    columns:
+      - name: listing_key
+        data_tests: [not_null, unique]
+      - name: listing_id
+        data_tests: [not_null, unique]
+      - name: seller_key
+        data_tests:
+          - relationships:
+              to: ref('dim_users')
+              field: user_key
+
+  - name: dim_date
+    columns:
+      - name: date_key
+        data_tests: [not_null, unique]
+      - name: date_day
+        data_tests: [not_null, unique]
+
+  - name: fct_listing_events
+    columns:
+      - name: event_id
+        data_tests: [not_null, unique]
+      - name: listing_key
+        data_tests:
+          - relationships:
+              to: ref('dim_listings')
+              field: listing_key
+      - name: event_date_key
+        data_tests:
+          - relationships:
+              to: ref('dim_date')
+              field: date_key
+
+  - name: fct_orders
+    description: Current order-state fact with item GMV and total paid amounts kept separate.
+    columns:
+      - name: order_id
+        data_tests: [not_null, unique]
+      - name: listing_key
+        data_tests:
+          - relationships:
+              to: ref('dim_listings')
+              field: listing_key
+      - name: buyer_key
+        data_tests:
+          - relationships:
+              to: ref('dim_users')
+              field: user_key
+      - name: seller_key
+        data_tests:
+          - relationships:
+              to: ref('dim_users')
+              field: user_key
+      - name: order_date_key
+        data_tests:
+          - relationships:
+              to: ref('dim_date')
+              field: date_key

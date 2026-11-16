@@ -1,0 +1,12 @@
+{
+  "period_start":"2026-08-31",
+  "period_end":"2026-10-02",
+  "new_listings":385,
+  "total_orders":60,
+  "gmv_eligible_orders":51,
+  "completed_orders":31,
+  "gross_merchandise_value_eur":12639.97,
+  "average_order_value_eur":247.84,
+  "listing_sell_through_rate":0.0805,
+  "overall_view_to_order_rate":0.0316
+}

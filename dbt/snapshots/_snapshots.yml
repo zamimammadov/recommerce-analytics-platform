@@ -1,0 +1,22 @@
+version: 2
+
+snapshots:
+  - name: users_snapshot
+    description: SCD Type 2 history of mutable user attributes.
+    columns:
+      - name: dbt_scd_id
+        data_tests: [not_null, unique]
+      - name: user_id
+        data_tests: [not_null]
+      - name: dbt_valid_from
+        data_tests: [not_null]
+
+  - name: listings_snapshot
+    description: SCD Type 2 history of listing price, status, and descriptive attributes.
+    columns:
+      - name: dbt_scd_id
+        data_tests: [not_null, unique]
+      - name: listing_id
+        data_tests: [not_null]
+      - name: dbt_valid_from
+        data_tests: [not_null]

@@ -1,0 +1,104 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  code-quality:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install project
+        run: python -m pip install -e ".[dev]"
+      - name: Lint
+        run: ruff check .
+      - name: Check formatting
+        run: ruff format --check .
+      - name: Unit tests
+        run: pytest --cov=src/recommerce --cov-report=term-missing
+
+  pipeline-integration:
+    runs-on: ubuntu-24.04
+    services:
+      postgres:
+        image: postgres:16.6-alpine
+        env:
+          POSTGRES_DB: recommerce
+          POSTGRES_USER: recommerce
+          POSTGRES_PASSWORD: ci-only-password
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U recommerce -d recommerce"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 12
+    env:
+      POSTGRES_HOST: localhost
+      POSTGRES_PORT: "5432"
+      POSTGRES_DB: recommerce
+      POSTGRES_USER: recommerce
+      POSTGRES_PASSWORD: ci-only-password
+      DATABASE_URL: postgresql://recommerce:ci-only-password@localhost:5432/recommerce
+      DBT_PROFILES_DIR: ${{ github.workspace }}/dbt
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install project and dbt
+        run: |
+          python -m pip install -e ".[dev]"
+          python -m pip install "dbt-core==1.9.1" "dbt-postgres==1.9.0"
+      - name: Initialize and ingest first daily batch
+        run: |
+          recommerce init-db
+          recommerce generate --start-date 2026-10-01 --days 1 --output-dir data/incoming
+          recommerce ingest --input-dir data/incoming/2026-10-01
+      - name: Verify transaction, replay, and concurrency invariants
+        env:
+          TEST_DATABASE_URL: ${{ env.DATABASE_URL }}
+        run: pytest -m integration
+      - name: Build first analytics state
+        working-directory: dbt
+        run: |
+          dbt deps --profiles-dir .
+          dbt build --profiles-dir .
+      - name: Ingest an update and materialize SCD2 history
+        run: |
+          recommerce generate --start-date 2026-10-02 --days 1 --output-dir data/incoming
+          recommerce ingest --input-dir data/incoming/2026-10-02
+      - name: Rebuild and test updated analytics state
+        working-directory: dbt
+        run: dbt build --profiles-dir .
+      - name: Verify listing history exists
+        run: >-
+          python -c "import os, psycopg;
+          connection=psycopg.connect(os.environ['DATABASE_URL']);
+          cursor=connection.cursor();
+          cursor.execute('select count(*) from snapshots.listings_snapshot where dbt_valid_to is not null');
+          assert cursor.fetchone()[0] > 0"
+      - name: Run cross-table quality gate
+        run: recommerce quality --fail-on-error
+      - name: Verify idempotent replay
+        run: |
+          recommerce ingest --input-dir data/incoming/2026-10-02 > replay.json
+          python -c "import json; result=json.load(open('replay.json')); assert result['files_skipped'] == 4; assert result['rows_accepted'] == 0"
+      - name: Export analytics using the application database driver
+        run: recommerce export-metrics --output-dir data/processed

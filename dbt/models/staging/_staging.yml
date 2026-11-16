@@ -1,0 +1,83 @@
+version: 2
+
+models:
+  - name: stg_users
+    description: Current valid version of every synthetic marketplace user.
+    columns:
+      - name: user_id
+        data_tests: [not_null, unique]
+      - name: country_code
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [BE, DE, ES, FR, IT, LT, NL, PL]
+      - name: acquisition_channel
+        data_tests:
+          - accepted_values:
+              values: [organic, paid_search, referral, social, partner]
+      - name: signup_at
+        data_tests: [not_null]
+
+  - name: stg_listings
+    description: Current valid version of every listing.
+    columns:
+      - name: listing_id
+        data_tests: [not_null, unique]
+      - name: seller_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('stg_users')
+              field: user_id
+      - name: status
+        data_tests:
+          - accepted_values:
+              values: [active, reserved, sold, removed]
+      - name: price_eur
+        data_tests: [not_null]
+
+  - name: stg_events
+    description: Deduplicated interaction events.
+    columns:
+      - name: event_id
+        data_tests: [not_null, unique]
+      - name: listing_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('stg_listings')
+              field: listing_id
+      - name: user_id
+        data_tests:
+          - relationships:
+              to: ref('stg_users')
+              field: user_id
+      - name: event_type
+        data_tests:
+          - accepted_values:
+              values: [view, favorite, message, price_drop]
+
+  - name: stg_orders
+    description: Current lifecycle version of every order.
+    columns:
+      - name: order_id
+        data_tests: [not_null, unique]
+      - name: listing_id
+        data_tests:
+          - relationships:
+              to: ref('stg_listings')
+              field: listing_id
+      - name: buyer_id
+        data_tests:
+          - relationships:
+              to: ref('stg_users')
+              field: user_id
+      - name: seller_id
+        data_tests:
+          - relationships:
+              to: ref('stg_users')
+              field: user_id
+      - name: order_status
+        data_tests:
+          - accepted_values:
+              values: [created, paid, shipped, completed, cancelled, refunded]

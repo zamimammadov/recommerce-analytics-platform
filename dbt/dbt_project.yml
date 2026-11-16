@@ -1,0 +1,32 @@
+name: recommerce_analytics
+version: 1.0.0
+config-version: 2
+
+profile: recommerce_analytics
+
+model-paths: ["models"]
+snapshot-paths: ["snapshots"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+target-path: target
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  recommerce_analytics:
+    +persist_docs:
+      relation: true
+      columns: true
+    staging:
+      +schema: staging
+      +materialized: view
+    core:
+      +schema: analytics
+      +materialized: table
+    marts:
+      +schema: analytics
+      +materialized: table
+
+snapshots:
+  recommerce_analytics:
+    +target_schema: snapshots
+    +invalidate_hard_deletes: true
