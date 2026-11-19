@@ -176,7 +176,7 @@ def _money(
     if amount < 0 or (amount == 0 and not allow_zero):
         comparator = "non-negative" if allow_zero else "greater than zero"
         errors.append(f"{field}: must be {comparator}")
-    if abs(amount) > Decimal("9999999999.99"):
+    if amount.copy_abs() > Decimal("9999999999.99"):
         errors.append(f"{field}: exceeds NUMERIC(12,2) range")
     if amount.as_tuple().exponent < -2:
         errors.append(f"{field}: maximum two decimal places")

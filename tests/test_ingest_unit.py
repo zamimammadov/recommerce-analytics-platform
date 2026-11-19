@@ -100,7 +100,7 @@ def test_unknown_entity_is_rejected() -> None:
         infer_entity(Path("payments.csv"))
 
 
-@pytest.mark.parametrize("value", ["10000000000.00", "NaN", "Infinity", "12.345"])
+@pytest.mark.parametrize("value", ["10000000000.00", "1E+1000000", "NaN", "Infinity", "12.345"])
 def test_money_outside_storage_contract_is_rejected(value):
     row = {
         "listing_id": "lst_1",

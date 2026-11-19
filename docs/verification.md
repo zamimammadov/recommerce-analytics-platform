@@ -29,6 +29,11 @@ Generated `data/processed/demo_validation.json` records the latest demo's
 history, quarantine, replay and timing results. Generated files remain outside
 source control; rerunning the demo produces fresh evidence.
 
+On 19 November 2026 the Python suite passed again with **41** cases,
+including the live PostgreSQL cases and a regression check for a price
+with an extreme decimal exponent. Out-of-range values now receive the
+normal validation error instead of interrupting the file load.
+
 ## What remains unverified or undeployed
 
 | Area | Limitation |
