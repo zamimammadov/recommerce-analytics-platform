@@ -29,7 +29,7 @@ def main() -> None:
     root = Path(__file__).resolve().parents[1]
     load_dotenv(root / ".env")
     os.environ["DBT_PROFILES_DIR"] = str(root / "dbt")
-    dbt = Path(sys.executable).parent / "dbt"
+    dbt = Path(sys.executable).parent / ("dbt.exe" if os.name == "nt" else "dbt")
     dbt_command = str(dbt) if dbt.exists() else shutil.which("dbt")
     if not dbt_command:
         parser.error('dbt is missing; install the project with ".[dev,warehouse]"')

@@ -1,4 +1,4 @@
-"""Pandas-based exports for recruiter-friendly business analysis."""
+"""Export marketplace reporting marts and a period-level summary."""
 
 from __future__ import annotations
 

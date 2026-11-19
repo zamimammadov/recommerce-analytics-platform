@@ -152,8 +152,7 @@ for the same logical date. Do not trigger an unrelated full-history rebuild.
 
 ## Local service objective
 
-For a portfolio-scale batch, define a demonstrable target rather than pretending
-to offer enterprise availability:
+Local operating targets for the daily batch:
 
 - daily partition completes within five minutes on the documented laptop class;
 - failed transient database calls are retried by orchestration;

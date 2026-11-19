@@ -1,0 +1,12 @@
+# Five minutes from a delivery to reported sales
+
+This walkthrough uses the [published sample](../examples/demo-results/executive_summary.md) and the [recorded two-day run](verification.md). Both are readable without installing anything. To inspect a live database, run the small demo in the [README](../README.md) first, then use [the audit queries](../analysis/inspect_pipeline.sql).
+
+| Time | What to open | Walkthrough |
+|---|---|---|
+| 0:00–0:45 | [Executive summary](../examples/demo-results/executive_summary.md) | “Operations wants to know how much merchandise changed hands. There are 60 orders in this example, but using all 60 to calculate sales volume would give the wrong answer. To see why, follow an order from its delivery.” |
+| 0:45–1:30 | [Order fact](../dbt/models/core/fct_orders.sql) | “A delivery contains users, listings, events and orders. The order fact has one row per current order. Its date is the order date, even if the source file arrived later. Product price and shipping remain separate.” |
+| 1:30–2:20 | [Audit SQL, queries 2 and 3](../analysis/inspect_pipeline.sql) | “A malformed price should be visible to the operator without changing sales totals. In the sample, six intentionally invalid rows went to quarantine. Query 3 groups the rejection reasons. Query 2 accounts for each processed file’s accepted, rejected and duplicate rows.” |
+| 2:20–3:10 | [Verification record](verification.md) and audit query 1 | “What happens if the second delivery is sent again? The registry already knows the checksums. The replay skipped four files and inserted zero rows. In a live run, the latest audit row shows these counts.” |
+| 3:10–4:00 | Audit query 4 and [listing snapshot](../dbt/snapshots/listings_snapshot.sql) | “Between the two batches, some listings changed. The snapshot retained 15 historical listing versions. Query 4 traces one listing through the change. The open-ended row is current. The snapshot captures the states observed at those two runs.” |
+| 4:00–5:00 | [Daily mart SQL](../dbt/models/marts/mart_daily_marketplace_kpis.sql) and the executive summary | “Of the 60 orders, 51 were paid, shipped or completed. Their item values sum to €12,639.97, excluding shipping. Dividing by 51 gives €247.84 average order value. Only 31 orders were completed. Ingestion handles new files incrementally, while dbt recomputes these totals so a late correction is reflected. This trades extra computation for a simpler correction path at this volume.” |
